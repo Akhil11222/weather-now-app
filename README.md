@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Weather Now App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview
+A simple and elegant weather application designed to provide instant weather information for any city. Perfect for outdoor enthusiasts who need quick access to current conditions before heading out.
 
-## Available Scripts
+# Features
+# City Search
+Quickly search for weather by city name.
 
-In the project directory, you can run:
+# Real-Time Data
+Get current temperature, weather description, and wind speed.
 
-### `npm start`
+# Responsive Design
+Works seamlessly on desktops, tablets, and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Error Handling
+User-friendly messages for invalid city names or connection issues.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Loading Indicators
+Clear feedback while fetching weather data.
 
-### `npm test`
+# Technology Stack
+# Framework
+React 18
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Styling
+Pure CSS with modern UI design
 
-### `npm run build`
+# APIs
+Open-Meteo Geocoding API (for city coordinates)  
+Open-Meteo Weather API (for weather data)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Authentication
+None required (uses free public APIs)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Getting Started
+# Clone Repository
+`git clone <repository-url>`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Navigate to Project Folder
+`cd weather-now-app`
 
-### `npm run eject`
+# Install Dependencies
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Start Development Server
+`npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Open Browser
+[http://localhost:3000](http://localhost:3000)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Usage
+# Enter City Name
+Type a city name in the search box.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Fetch Weather
+Press **Enter** or click **Get Weather**.
 
-## Learn More
+# View Weather Data
+- Temperature in Celsius  
+- Weather description (Clear, Cloudy, Rainy, etc.)  
+- Wind speed in km/h
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# API Information
+Open-Meteo API provides:  
+- Free access with no API key  
+- Accurate weather data from multiple sources  
+- Global coverage for cities worldwide  
+- Real-time updates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# User Story
+This app helps outdoor enthusiasts check weather conditions before planning activities. Users get instant access to reliable weather data for any city, allowing for informed decisions.
 
-### Code Splitting
+# Project Structure
+weather-now-app/
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+├── src/
+│ ├── App.js
+│ ├── App.css
+│ └── index.css
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Development Process
+- Gathered user requirements  
+- Researched and selected suitable APIs  
+- Planned component architecture  
+- Iteratively developed and tested features  
+- Implemented responsive design and UX improvements  
+- Added error handling and loading states
 
-### Analyzing the Bundle Size
+# Candidate Information
+# Candidate ID
+Naukri0925
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Position
+Web Developer
 
-### Making a Progressive Web App
+# Company
+Aganitha Cognitive Solutions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Challenge
+Take-Home UI Challenge — Weather Application
+ 
